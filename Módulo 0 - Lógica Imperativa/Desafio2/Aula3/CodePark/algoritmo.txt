@@ -1,0 +1,35 @@
+Var
+nome:caractere
+altura:real
+cpf:inteiro
+rg:inteiro
+endereco:caractere
+cidade:caractere
+maior_de_idade:logico
+
+Inicio
+escreva("Digite o seu nome");
+leia(nome)
+escreva("Digite a sua altura(use ponto ao invés de vírgula)");
+leia(altura)
+escreva("Digite o seu cpf(apenas números)");
+leia(cpf)
+escreva("Digite o seu rg(apenas números)");
+leia(rg)
+escreva("Digite a cidade onde você mora");
+leia(cidade)
+escreva("Digite o seu endereço de residência");
+leia(endereco)
+escreva("Você é maior de idade maior de idade(Verdadeiro ou Falso) ?");
+leia(maior_de_idade)
+
+escreva("----------------------------------------");
+escreva("Dossiê da Pessoa");
+escreva("----------------------------------------");
+escreva("NOME: ", nome);
+escreva("ENDEREÇO: ", endereco);
+escreva("CIDADE: ", cidade);
+escreva("CPF: ", cpf);
+escreva("Registro Geral: ", rg);
+escreva("----------------------------------------");
+Fimalgoritmo
