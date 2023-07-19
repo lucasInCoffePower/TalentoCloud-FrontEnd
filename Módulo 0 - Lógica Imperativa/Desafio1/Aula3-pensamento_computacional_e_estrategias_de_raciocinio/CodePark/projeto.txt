@@ -1,11 +1,23 @@
-A resposta abaixo leva em consideração que o professor sabe a lógica que utilizou para separar os discentes, e que ele só tem que identificar a falta dos padrões estabelecidos pela lógica utilizada e não se preocupar em aprender os padrões em si. Ou seja, que o professor não tem uma amnésia total
+A resposta abaixo leva em consideração que o professor sabe a lógica que utilizou para separar os discentes, e que ele só tem que identificar a falta dos padrões 
+estabelecidos pela lógica utilizada e não se preocupar em aprender os padrões em si. Ou seja, que o professor não tem uma amnésia total
 
-Sabendo disso, podemos supor que o professor começou decompondo a sala ou em linhas de 1 dimensão, verticais e horizontais, ou em blocos de 2x2 cadeiras, gerando 3 fileiras, de 2 dimensões, com 3 quadrados que contém 4 cadeiras cada.
+Sabendo disso, podemos supor que o professor começou decompondo a sala ou em linhas de 1 dimensão, verticais e horizontais, ou em blocos de 2x2 cadeiras, gerando 3
+fileiras, de 2 dimensões, com 3 quadrados que contém 4 cadeiras cada.
 
-Na primeira hipótese, ele poderia observar uma quebra de padrão na quantidade de alunos que gostam de uma determinada matéria por linha. Normalmente há 4 discentes que gostam de uma disciplina específica em uma mesma linha, seja observando horizontalmente ou verticalmente. 
-Em algum momento, sob essa observação, ele vai notar que há 2 intersecção, um par linha horizontal e linha vertical em que há a anomalia de não ter pelo menos 4 discentes que gostam de uma mesma disciplina nessas linhas. Ao trocar de lugar os discentes nesses dois pontos, ele resolverá o problema, colocando o padrão em ordem novamente.
+Na primeira hipótese, ele poderia observar uma quebra de padrão na quantidade de alunos que gostam de uma determinada matéria por linha. Normalmente há 4 
+discentes que gostam de uma disciplina específica em uma mesma linha, seja observando horizontalmente ou verticalmente. 
+Em algum momento, sob essa observação, ele vai notar que há 2 intersecção, um par linha horizontal e linha vertical em que há a anomalia de não ter pelo 
+menos 4 discentes que gostam de uma mesma disciplina nessas linhas. Ao trocar de lugar os discentes nesses dois pontos, ele resolverá o problema, colocando o 
+padrão em ordem novamente.
 
-Por outro lado, ao separar em blocos (3 linhas de 2 dimensões), ele se lembrará que há sempre 3 combinações de blocos distintas em cada fileira: 1 bloco com 3 Ms e 1P; 1 bloco com 3Ps e 1M; 1 bloco com 2Ms e 2Ps. Além disso, ele também é capaz de relembrar que os blocos com as mesmas combinações nunca se tocam, nem horizontalmente e nem verticialmente, de forma direta ou virtual(se dobrar a sala como se fosse um cilindro,tocando as bordas dos quadrados , mesmo assim , verticalmente ou horizontalmente não deveria haver toque entre combinações do mesmo tipo) e que a observação das linhas (1 dimensão), onde há sempre 4Ps ou 4Ms em cada linha de forma alternada, é sempre verdade, tanto horizontalmente quanto verticalmente.
-Portanto, ao analisar que há dois blocos idênticos em 2 fileiras, ele saberá que um discente de uma fileira trocou de lugar com de outra fileira, fora do seu bloco.
-Para descobrir qual o bloco, ele terá que ver que o padrão do cilindro é quebrado mais de uma vez pelos blocos em que houve a troca. Ademais, para descobrir quais foram os discentes que trocaram de lugar, ele pode simplesmente analisar se dentro dos blocos, a fileira de cada um dos discentes mantém o padrão da quantidade 4Ms ou 4Ps por fileira. A cadeira em que este padrão é quebrado nos dois blocos, pertence aos discentes que trocaram de lugar. 
+Por outro lado, ao separar em blocos (3 linhas de 2 dimensões), ele se lembrará que há sempre 3 combinações de blocos distintas em cada fileira: 1 bloco com 
+3 Ms e 1P; 1 bloco com 3Ps e 1M; 1 bloco com 2Ms e 2Ps. Além disso, ele também é capaz de relembrar que os blocos com as mesmas combinações 
+nunca se tocam, nem horizontalmente e nem verticialmente, de forma direta ou virtual(se dobrar a sala como se fosse um cilindro,tocando as bordas dos 
+quadrados , mesmo assim , verticalmente ou horizontalmente não deveria haver toque entre combinações do mesmo tipo) e que a observação das linhas (1 dimensão),
+onde há sempre 4Ps ou 4Ms em cada linha de forma alternada, é sempre verdade, tanto horizontalmente quanto verticalmente.
+Portanto, ao analisar que há dois blocos idênticos em 2 fileiras, ele saberá que um discente de uma fileira trocou de lugar com de outra fileira, fora do 
+seu bloco.
+Para descobrir qual o bloco, ele terá que ver que o padrão do cilindro é quebrado mais de uma vez pelos blocos em que houve a troca. Ademais, para descobrir 
+quais foram os discentes que trocaram de lugar, ele pode simplesmente analisar se dentro dos blocos, a fileira de cada um dos discentes mantém o padrão 
+da quantidade 4Ms ou 4Ps por fileira. A cadeira em que este padrão é quebrado nos dois blocos, pertence aos discentes que trocaram de lugar. 
 
