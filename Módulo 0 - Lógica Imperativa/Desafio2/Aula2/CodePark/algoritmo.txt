@@ -1,0 +1,33 @@
+O algoritmo deve conter cinco variáveis com os seguintes identificadores e tipos: nome, do tipo caractere; cpf, do tipo caractere; rg, do tipo caractere; 
+altura, do tipo real; e endereco, do tipo caractere.
+Note, no entanto, que as variáveis que representam o cpf e o rg são descritas como caracteres e não inteiras, como aparentam ser na entrada. Essa escolha é devido ao
+desconhecimento da existência de algum tratamento de dados para as entradas entrada, então, considera-se que os dados de rg e cpf poderiam vir, em algum momento,
+com pontos (.) ou travessões (-), o que inviabilizaria o uso de um tipo inteiro, como o exemplo abaixo demonstra:
+
+## Exemplo
+cpf = 123456789-00
+rg = 9.517.530
+
+Em ambos os casos acima, ter variáveis do tipo inteiro ou decimal não seria apropriado. Devido a isso, optou-se por definir o tipo de ambas como caractere.
+
+Para a operação de atribuição, podemos utilizar o operador de atribuição "=" ou "<-", ambos dependem da linguagem de programação. Optamos por utilizar o "=".
+
+Por fim, a construção do algoritmo é dada dessa forma:
+
+## Início do Algoritmo
+
+# Declaração
+nome:caractere
+cpf:caractere
+rg:caractere
+altura:real
+endereco:caractere
+
+# atribuição
+nome = "José Almeida da Silva"
+cpf = "12345678900"
+rg = "9517530"
+altura = 1,78
+endereco = "Rua A, 380 – Centro – Recife/PE"
+
+## fim do algoritmo
