@@ -8,7 +8,7 @@ com pontos (.) ou travessões (-), o que inviabilizaria o uso de um tipo inteiro
 cpf = 123456789-00
 rg = 9.517.530
 
-Em ambos os casos acima, ter variáveis do tipo inteiro ou decimal não seria apropriado. Devido a isso, optou-se por definir o tipo de ambas como caractere.
+Em ambos os casos acima, ter variáveis do tipo inteiro ou real não seria apropriado. Devido a isso, optou-se por definir o tipo de ambas como caractere.
 
 Para a operação de atribuição, podemos utilizar o operador de atribuição "=" ou "<-", ambos dependem da linguagem de programação. Optamos por utilizar o "=".
 
