@@ -2,7 +2,7 @@ O algoritmo deve conter cinco variáveis com os seguintes identificadores e tipo
 altura, do tipo real; e endereco, do tipo caractere.
 Note, no entanto, que as variáveis que representam o cpf e o rg são descritas como caracteres e não inteiras, como aparentam ser na entrada. Essa escolha é devido ao
 desconhecimento da existência de algum tratamento de dados para as entradas, então, considera-se que os dados de rg e cpf poderiam vir, em algum momento,
-com pontos (.) ou travessões (-), o que inviabilizaria o uso de um tipo inteiro, como o exemplo abaixo demonstra:
+com pontos (.) ou hífen (-), o que inviabilizaria o uso de um tipo inteiro, como o exemplo abaixo demonstra:
 
 ## Exemplo
 cpf = 123456789-00
