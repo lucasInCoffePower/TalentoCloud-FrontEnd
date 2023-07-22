@@ -5,8 +5,8 @@
 # Algoritmo com estrutura de seleção encadeada
 
 var
-fumante_ou_com_animal:logico
-grupo_5_ou_mais_pessoas:logico
+fumante_ou_com_animal:caractere
+grupo_5_ou_mais_pessoas:caractere
 andar_de_destino:caractere
 
 
@@ -15,10 +15,10 @@ inicio
   leia(fumante_ou_com_animais)
   escreva("Está em grupo de 5 ou mais pessoas ?(Verdadeiro ou Falso));
   leia(grupo_5_ou_mais_pessoas)
-  se (fumante_ou_com_animais) entao
+  se (fumante_ou_com_animais == "Verdadeiro") entao
     andar_de_destino = "Área externa";
   senao
-    se (grupo_5_ou_mais_pessoas) entao
+    se (grupo_5_ou_mais_pessoas == "Verdadeiro") entao
       andar_de_destino = "1ª andar";
     senao
       andar_de_destino = "Térreo";
