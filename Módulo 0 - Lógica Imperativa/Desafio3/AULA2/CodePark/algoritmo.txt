@@ -1,0 +1,55 @@
+# Este algoritmo pode ser construído de 3 formas: utilizando estrutura de seleção simples; com estruturas de seleção encadeada e utilizando estrutura de múltipla escolha
+# optamos por fazer encadeada e de múltipla escolha
+
+# Algoritmo com estrutura de seleção encadeada
+
+var
+fumante_ou_com_animal:logico
+grupo_5_ou_mais_pessoas:logico
+andar_de_destino:caractere
+
+
+inicio
+  escreva("Você é fumante ? (Verdadeiro ou Falso)");
+  leia(fumante_ou_com_animais)
+  escreva("Está em grupo de 5 ou mais pessoas ?(Verdadeiro ou Falso));
+  leia(grupo_5_ou_mais_pessoas)
+  se (fumante_ou_com_animais) entao
+    andar_de_destino = "Área externa";
+  senao
+    se (grupo_5_ou_mais_pessoas) entao
+      andar_de_destino = "1ª andar";
+    senao
+      andar_de_destino = "Térreo";
+    fimse
+  fimse
+escreva("Ir para: ", andar_de_destino);
+fimalgoritmo
+
+# Algoritmo com estrutura de múltipla escolha
+
+var
+escolha_usuario:caractere # variavel
+area_externa = "Área externa" # constante
+primeiro_andar = "1ª andar" # constante
+terreo = "Térreo" # constante
+
+inicio
+  escreva("""
+    Bem-vindo(a) ao restaurante Rolê Aleatório !
+    Siga as instruções abaixo para definir qual o local em que você se direcionará.
+    Digite o número para cada uma das opções (a opção menor é a que tem prioridade):
+    Digite 1 caso seja fumante ou tem cachorro;
+    Digite 2 caso esteja em um grupo de 5 ou mais pessoas;
+  """)
+  leia(escolha_usuario)
+  escolha (escolha_usuario):
+    caso 1:
+      escreva("Ir para ", area_externa);
+    caso 2:
+      escreva("Ir para", primeiro_andar);
+    outrocaso:
+      escreva("Ira para: ", terreo);
+  fimescolha
+  fimalgoritmo
+  
