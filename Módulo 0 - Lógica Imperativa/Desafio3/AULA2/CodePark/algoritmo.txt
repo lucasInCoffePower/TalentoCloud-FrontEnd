@@ -1,4 +1,5 @@
-# Este algoritmo pode ser construído de 3 formas: utilizando estrutura de seleção simples; com estruturas de seleção encadeada e utilizando estrutura de múltipla escolha
+# Este algoritmo pode ser construído de 3 formas: utilizando estrutura de seleção simples; com estruturas de seleção encadeada e utilizando 
+# estrutura de múltipla escolha
 # optamos por fazer encadeada e de múltipla escolha
 
 # Algoritmo com estrutura de seleção encadeada
