@@ -1,0 +1,16 @@
+## Utilizaremos neste algoritmo a estrutura de repetição com variável de controle PARA
+## A escolha é interessante porque já temos a quantidade de loops que serão executados antes mesmo de iniciar o programa
+
+
+var
+nome_equipe: caractere
+contador: inteiro
+
+inicio
+  escreva("Digite o nome da equipe");
+  leia(nome_equipe);
+  para contador <- 1 ate 5 faca
+    escreval(nome_equipe, "-", contador);
+  fimpara
+fimalgoritmo
+  
