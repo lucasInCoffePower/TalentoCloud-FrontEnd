@@ -5,20 +5,20 @@
 # Algoritmo com estrutura de seleção encadeada
 
 var
-fumante_ou_com_animal:caractere
-grupo_5_ou_mais_pessoas:caractere
+fumante_ou_com_animal:logico
+grupo_5_ou_mais_pessoas:logico
 andar_de_destino:caractere
 
 
 inicio
-  escreva("Você é fumante ? (Verdadeiro ou Falso)");
+  escreva("Você é fumante ? (verdadeiro ou falso)");
   leia(fumante_ou_com_animais)
-  escreva("Está em grupo de 5 ou mais pessoas ?(Verdadeiro ou Falso));
+  escreva("Está em grupo de 5 ou mais pessoas ?(verdadeiro ou falso));
   leia(grupo_5_ou_mais_pessoas)
-  se (fumante_ou_com_animais == "Verdadeiro") entao
+  se (fumante_ou_com_animais) entao # se for verdadeiro, passa direto, se não, vai para o outro bloco
     andar_de_destino = "Área externa";
   senao
-    se (grupo_5_ou_mais_pessoas == "Verdadeiro") entao
+    se (grupo_5_ou_mais_pessoas) entao # se for verdadeiro, passa direto, se não, vai para o outro bloco
       andar_de_destino = "1ª andar";
     senao
       andar_de_destino = "Térreo";
