@@ -45,6 +45,8 @@ def main():
         print('Classe D')
     elif qtd_rodas >= 4 and peso > 6000:
         print('Classe E')
+    else:
+        print('A classe do veículo não pode ser identificada')
 
 
     encerramento() # mensagem de encerramento
