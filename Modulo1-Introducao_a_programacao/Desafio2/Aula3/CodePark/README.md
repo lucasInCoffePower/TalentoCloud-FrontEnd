@@ -19,4 +19,4 @@ O código foi desenvolvido utilizando a versão 3.8.10 do python
 
 para acessá-lo, basta clicar no link abaixo:
 
-![código](https://github.com/lucasInCoffePower/TalentoCloud-FrontEnd/blob/main/Modulo1-Introducao_a_programacao/Desafio2/Aula3/CodePark/code_park.py)
+[código](https://github.com/lucasInCoffePower/TalentoCloud-FrontEnd/blob/main/Modulo1-Introducao_a_programacao/Desafio2/Aula3/CodePark/code_park.py)
