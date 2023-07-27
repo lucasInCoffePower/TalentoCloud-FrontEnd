@@ -19,4 +19,4 @@ Com essas informações, o programa mostrará qual é a melhor categoria de habi
 
 *para acessá-lo, basta clicar no link abaixo:*
 
-[código](https://github.com/lucasInCoffePower/TalentoCloud-FrontEnd/blob/main/Modulo1-Introducao_a_programacao/Desafio2/Aula3/CodePark/code_park.py)
+[solução](https://github.com/lucasInCoffePower/TalentoCloud-FrontEnd/blob/main/Modulo1-Introducao_a_programacao/Desafio2/Aula3/CodePark/code_park.py)
