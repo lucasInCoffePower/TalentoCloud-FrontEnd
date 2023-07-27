@@ -11,3 +11,12 @@ Com essas informações, o programa mostrará qual é a melhor categoria de habi
 - C: Veículos com quatro rodas ou mais e com peso entre 3500 e 6000 kg;
 - D: Veículos com quatro rodas ou mais e que acomodam mais de oito pessoas;
 - E: Veículos com quatro rodas ou mais e com mais de 6000 kg.
+
+
+# Reposta;
+
+O código foi desenvolvido utilizando a versão 3.8.10 do python
+
+para acessá-lo, basta clicar no link abaixo:
+
+[código]()
