@@ -13,10 +13,10 @@ Com essas informações, o programa mostrará qual é a melhor categoria de habi
 - E: Veículos com quatro rodas ou mais e com mais de 6000 kg.
 
 
-# Reposta;
+## Reposta
 
-O código foi desenvolvido utilizando a versão 3.8.10 do python
+**O código foi desenvolvido utilizando a versão 3.8.10 do python**
 
-para acessá-lo, basta clicar no link abaixo:
+*para acessá-lo, basta clicar no link abaixo:*
 
 [código](https://github.com/lucasInCoffePower/TalentoCloud-FrontEnd/blob/main/Modulo1-Introducao_a_programacao/Desafio2/Aula3/CodePark/code_park.py)
