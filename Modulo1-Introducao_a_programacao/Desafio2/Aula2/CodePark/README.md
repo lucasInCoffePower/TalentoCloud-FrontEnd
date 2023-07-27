@@ -18,4 +18,4 @@ resultado final (Verdadeiro ou Falso) de cada sentença.*
 | Linha 3  | convidados, fumante = 3, False | convidados > 4 or fumante == True | False |
 | Linha 4  | dia = "qua" | dia == "sab" or dia == "dom" | False |
 | Linha 5  | feriado = True | not feriado == False | True |
-| Linha 6  | dia, feriado = "ter", False | dia == "seg" or !(feriado == False) | False (obs: No python dá erro de sintaxe: pois a função do operador `!` é feito pelo `not`, então ele não existe)  |
+| Linha 6  | dia, feriado = "ter", False | dia == "seg" or !(feriado == False) | False (obs: No python dá erro de sintaxe: a função do operador `!` é feito pelo `not`, então ele não existe)  |
