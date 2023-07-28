@@ -1,51 +1,45 @@
-
-
-
+# Algoritmo
 
 def algoritmoPrints():
     '''Implementa um algoritmo com prints'''
-    print(20, end='\n')
-    print(19, end='\n')
-    print(18, end='\n')
-    print(17, end='\n')
-    print(16, end='\n')
-    print(15, end='\n')
-    print(14, end='\n')
-    print(12, end='\n')
-    print(11, end='\n')
-    print(10, end='\n')
-    print(9, end='\n')
-    print(8, end='\n')
-    print(7, end='\n')
-    print(6, end='\n')
-    print(5, end='\n')
-    print(4, end='\n')
-    print(3, end='\n')
-    print(2, end='\n')
-    print(1, end='\n')
+    print(20)
+    print(19)
+    print(18)
+    print(17)
+    print(16)
+    print(15)
+    print(14)
+    print(12)
+    print(11)
+    print(10)
+    print(9)
+    print(8)
+    print(7)
+    print(6)
+    print(5)
+    print(4)
+    print(3)
+    print(2)
+    print(1)
 
 
 def algoritmoFor():
     '''Implementa a estrutura for'''
-     
-    [print(i, end='\n') for i in range(20,0,-1) if i != 13]
-        
+     andares = range(20, 0, -1)
+    for andar in andares:
+        if andar != 13:
+            print(andar)
 
 
 def algoritmoWhile():
     '''Implementa a estrutura while'''
-
-    contador = 20
-
-    while contador != 0:
-        print(contador)
-        if contador == 14:
-            contador -=2
-        else:
-            contador -=1
+    andar = 20
+    while andar != 0:
+        if andar != 13:
+            print(andar)
+        conntador -=1
 
         
-
 def main():
     print('#########Algoritmo com prints ############')
     algoritmoPrints()
@@ -54,8 +48,6 @@ def main():
     print('\n########Algoritmo com while ############')
     algoritmoWhile()
     
-
-
 
 if __name__ == '__main__':
     main()
