@@ -10,19 +10,18 @@ def main():
   
   
   conta=(bebidaValor*3)+(almocoValor*4)+(sobremesaValor*2)
-  print('O valor total é:',total)
-  
   rachaPessoa=conta/qtdConvidados
-  print('Valor por pessoa:', rachaPessoas)
+  
+  print('Conta: R$ {}\nRachão: R$ {}'.format(conta, rachaPessoa)
   
   bomAmigo = True
   
-  if orcamento >= rachaPessoa):
+  if orcamento >= rachaPessoa:
    print("Vamos dividir")
-  elif(bomAmigo):
-    print("Top")
+  elif bomAmigo:
+    print('Top')
   else:
-   print("Não")
+   print('Não')
 
   
 
