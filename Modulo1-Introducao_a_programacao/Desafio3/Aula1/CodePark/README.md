@@ -13,4 +13,7 @@ Caso seja inserido um número de operação que não exista, o resultado deverá
 
 ## Solução
 
+A solução para o algoritmo foi feita utilizando python 3.8.19. O link para o algoritmo está logo abaixo:
+
+--> [Algoritmo](https://github.com/lucasInCoffePower/TalentoCloud-FrontEnd/blob/main/Modulo1-Introducao_a_programacao/Desafio3/Aula1/CodePark/algoritmo.py)<<
 
