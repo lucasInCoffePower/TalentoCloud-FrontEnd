@@ -37,7 +37,7 @@ def algoritmoWhile():
     while andar != 0:
         if andar != 13:
             print(andar)
-        conntador -=1
+        andar -=1
 
         
 def main():
