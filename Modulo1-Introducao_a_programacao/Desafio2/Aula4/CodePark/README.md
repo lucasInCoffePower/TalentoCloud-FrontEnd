@@ -13,4 +13,4 @@ Como desafio, imprima eles em ordem decrescente (20, 19, 18...)
 
 
 Utilizando o python versão 3, foi desenvolvido um algoritmo único que engloba o processamento necessário para a questão. 
-Você pode conferir o algoritmo clicando no link ao lado: (Algoritmo)[]
+Você pode conferir o algoritmo clicando no link ao lado >>> [Algoritmo](https://github.com/lucasInCoffePower/TalentoCloud-FrontEnd/blob/main/Modulo1-Introducao_a_programacao/Desafio2/Aula4/CodePark/algoritmo.py)
