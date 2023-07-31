@@ -1,8 +1,8 @@
 # Calculadora
 
-
-def menuOperacoes():
-    '''Apresenta as operações'''
+def calculadora():
+    '''Apresenta e recebe operação, recebe operandos, e calcula resultados'''
+    
     print('''
         \nEscolha a operação prosseguir
         1- Soma
@@ -11,12 +11,7 @@ def menuOperacoes():
         4- Divisão
         5- Sair
         ''')
-
-
-
-def calculadora():
-    '''Recebe operação e operandos, e calcula resultados'''
-    menuOperacoes()
+    
     operacao = input()
     
     if operacao == '5':
