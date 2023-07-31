@@ -22,7 +22,7 @@ def calculadora():
     if operacao == '5':
         return False
     elif operacao != '1' and operacao != '2' and operacao != '3' and operacao != '4':
-        print('Operação inválida')
+        print('Essa operação não existe !')
     else:
         numero1 = float(input('Digite o primeiro número: '))
         numero2 = float(input('Digite o segundo número: '))
