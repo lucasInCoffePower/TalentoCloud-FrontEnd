@@ -55,7 +55,6 @@ def calculadora():
             print('{}x{}={}'.format(numero1, numero2, multiplicacao(numero1, numero2)))
         else:
             print('{}/{}={}'.format(numero1, numero2, divisao(numero1, numero2)))
-
     return True
         
         
