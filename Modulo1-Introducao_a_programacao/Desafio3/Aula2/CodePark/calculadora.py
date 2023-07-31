@@ -47,8 +47,8 @@ def calculadora():
     elif operacao != '5':
         num1 = float(input('Digite o primeiro número'))
         num2 = float(input('Digite o segundo número'))
-        resultado = operacoes[operacao]
-        print('{}{}{}={}'.format(num1, resultado[1], num2, resultado[0](num1, num2)))
+        dados = operacoes[operacao]
+        print('{numero1}{operador}{numero2}={resultado}'.format(numero1=num1, operador=dados[1], numero2=num2, resultado=dados[0](num1, num2)))
     else:
         return False
     return True
