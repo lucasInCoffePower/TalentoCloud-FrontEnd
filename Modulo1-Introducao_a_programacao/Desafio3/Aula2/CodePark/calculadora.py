@@ -49,6 +49,9 @@ def calculadora():
         num2 = float(input('Digite o segundo número'))
         resultado = operacoes[operacao]
         print('{}{}{}={}'.format(num1, resultado[1], num2, resultado[0](num1, num2)))
+    else:
+        return False
+    return True
         
         
 def main():
