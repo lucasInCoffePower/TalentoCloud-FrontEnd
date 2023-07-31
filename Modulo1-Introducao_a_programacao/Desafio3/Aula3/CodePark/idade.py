@@ -16,6 +16,8 @@ def limparTela():
 def receberAnoNascimento():
     try:
         ano_nascimento = int(input('Digite o ano em que você nasceu: '))
+        if ano_nascimento < 1922 or ano_nascimento > 2021:
+            raise Exception('Data inválida ! Intervalo de data menor que 1922 ou maior que 2021 são inválidos!') 
     except ValueError as ve:
         raise ValueError('Digitou texto ao invés de número !')
     else:
@@ -44,13 +46,13 @@ def main():
         except ValueError as ve:
             print('Um erro ocorreu!')
             print('Erro: {}'.format(ve))
-            input('Digite a data de nascimento novamente! Pressione enter para continuar!')
         except Exception as e:
             print('Um erro ocorreu')
             print('Erro: {}'.format(e))
         else:
             print(f'Olá, {nome} ! Em {ano_atual} você completa {idade} anos de idade')
             break
+        input('Digite a data de nascimento novamente! Pressione enter para continuar!')
         limparTela()
         
 
