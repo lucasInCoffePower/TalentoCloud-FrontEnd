@@ -1,7 +1,7 @@
 # Calculadora
 
 def adicao(n1:float, n2:float):
-    '''resultado da soma'''
+    '''Operação de adição'''
     return n1+n2
 
 
@@ -11,12 +11,12 @@ def subtracao(n1:float, n2:float):
 
 
 def multiplicacao(n1:float, n2:float):
-    '''multiplicação'''
+    '''operação de multiplicação'''
     return n1*n2
 
 
 def divisao(n1:float, n2:float):
-    '''divisao'''
+    '''operação de divisao'''
     return 'indeterminação' if n2 == 0 else n1/n2 
 
 
