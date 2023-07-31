@@ -1,6 +1,7 @@
 # Calculadora
 import os
 
+
 def limparCli():
     '''Limpa a tela'''
     if os.name == 'nt':
@@ -9,6 +10,7 @@ def limparCli():
     else:
         # Linux
         os.system('clear')
+        
 
 def adicao(n1:float, n2:float):
     '''Operação de adição'''
