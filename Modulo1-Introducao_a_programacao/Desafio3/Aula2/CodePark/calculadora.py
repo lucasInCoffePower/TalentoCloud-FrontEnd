@@ -1,4 +1,14 @@
 # Calculadora
+import os
+
+def limparCli():
+    '''Limpa a tela'''
+    if os.name == 'nt':
+        # Windows
+        os.system('cls')
+    else:
+        # Linux
+        os.system('clear')
 
 def adicao(n1:float, n2:float):
     '''Operação de adição'''
@@ -42,21 +52,22 @@ def calculadora():
     
     operacao = input()
     
-    if operacao not in operacoes:
-        print('Essa operação não existe !')
-    elif operacao != '5':
-        num1 = float(input('Digite o primeiro número'))
-        num2 = float(input('Digite o segundo número'))
+    if operacao == '5':
+        return False
+    elif operacao not in operacoes:
+        print('Essa operação não existe')
+    else:
+        num1 = float(input('Digite o primeiro número: '))
+        num2 = float(input('Digite o segundo número: '))
         dados = operacoes[operacao]
         print('{numero1}{operador}{numero2}={resultado}'.format(numero1=num1, operador=dados[1], numero2=num2, resultado=dados[0](num1, num2)))
-    else:
-        return False
     return True
         
         
 def main():
     while calculadora():
-        pass
+        input('Pressione Enter para avançar')
+        limparCli()
 
 
 if __name__ == '__main__':
