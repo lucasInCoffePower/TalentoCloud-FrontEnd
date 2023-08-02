@@ -20,8 +20,8 @@ def multiplicacao(fator1:int, fator2:int):
 def gerarTabuada(numero:int, tamanho:int, tabuada:str ):
     print('#####{}#####'.format(tabuada))
     for valor_variavel in range(tamanho):
-        resultado = valor_variavel*numero
-        print(f'{valor_variavel}x{numero}={resultado}')
+        produto = multiplicacao(valor_variavel, numero)
+        print(f'{valor_variavel}x{numero}={produto}')
 
 
 def main():
