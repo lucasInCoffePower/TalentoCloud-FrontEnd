@@ -6,7 +6,7 @@
 <img src="https://github.com/lucasInCoffePower/TalentoCloud-FrontEnd/blob/main/Modulo1-Introducao_a_programacao/DesafiosPropostos/img/Aula_05_-_Loop_03.png" width="665" height="499">
 
 
-**[Solução proposta]([a](https://github.com/lucasInCoffePower/TalentoCloud-FrontEnd/blob/main/Modulo1-Introducao_a_programacao/DesafiosPropostos/desafio1.py))**
+**[Solução proposta](https://github.com/lucasInCoffePower/TalentoCloud-FrontEnd/blob/main/Modulo1-Introducao_a_programacao/DesafiosPropostos/desafio1.py)**
 
 ### Desafio 2
 
