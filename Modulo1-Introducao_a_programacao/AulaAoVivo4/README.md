@@ -7,4 +7,4 @@
   - Ser par
   - Ser primo (não ser par e nem divisível por 3)
 
-[Solução]()
+[Solução](https://github.com/lucasInCoffePower/TalentoCloud-FrontEnd/blob/main/Modulo1-Introducao_a_programacao/AulaAoVivo4/ao_vivo.py)
