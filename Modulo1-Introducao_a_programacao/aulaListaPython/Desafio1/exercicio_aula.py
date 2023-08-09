@@ -1,4 +1,4 @@
-nomes = ('Carlos', 'David', 'Stephanie', 'Angela')
+nomes = ['Carlos', 'David', 'Stephanie', 'Angela']
 
 
 def receber_nome():
