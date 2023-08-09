@@ -1,3 +1,7 @@
 # Desafio de listas 1
 
->> [Solução]()
+*Equipe: **Lucas Silva**, **Decio**, **Fernando Bettiol Lopes**
+
+# Resolução
+
+ [Solução]()
