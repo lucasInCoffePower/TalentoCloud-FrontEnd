@@ -20,4 +20,4 @@
 
 ## Solução 
 
->> [Solução]()
+-> [Solução](https://github.com/lucasInCoffePower/TalentoCloud-FrontEnd/blob/main/Modulo1-Introducao_a_programacao/aulaListaPython/Desafio2/sistema_estoque.py)
