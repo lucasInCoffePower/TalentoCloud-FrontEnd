@@ -4,4 +4,4 @@
 
 # Resolução
 
- [Solução]()
+ [Solução](https://github.com/lucasInCoffePower/TalentoCloud-FrontEnd/blob/main/Modulo1-Introducao_a_programacao/aulaListaPython/Desafio1/exercicio_aula.py)
