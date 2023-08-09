@@ -43,12 +43,16 @@ def alterar_produto(produto_buscar, produto_alterar):
     else:
         print('Não é possível substituir!')
 
+def encerrar_programa():
+    return True
+
 
 operacoes = {
             '1': inserir_produto,
             '2': ver_estoque,
             '3': buscar_produto,
-            '4': alterar_produto
+            '4': alterar_produto,
+            '0': encerrar_programa
         }
 
 
@@ -77,8 +81,8 @@ def logica_sistema(operacao):
         elif operacao == '2':
             operacoes[operacao]()
         else:
-            print('Encerrando programa')
-            return True
+            print('Encerrando Programa')
+            return operacoes[operacao]
     else:
         raise ValueError('Operação inválida')
                
