@@ -77,7 +77,7 @@ def logica_sistema(operacao):
         elif operacao == '2':
             operacoes[operacao]()
         else:
-            print('Operação Inválida')
+            print('Encerrando programa')
             return True
     else:
         raise ValueError('Operação inválida')
