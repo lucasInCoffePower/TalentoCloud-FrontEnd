@@ -1,6 +1,6 @@
 # Desafio 2
 
-*Equipe: **Cleverson**, **eduarda**, **jefferson jimenez**, **vinicius andre**, **vinicius rodrigues**, **Lucas Silva**.*
+*Equipe: **Cleverson**, **Eduarda**, **Jefferson Jimenez**, **Vinicius Andre**, **Vinicius Rodrigues**, **Lucas Silva**.*
 
 ## Enunciado
 >“Boa tarde,
