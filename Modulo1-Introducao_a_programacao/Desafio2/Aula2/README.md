@@ -1,2 +1,2 @@
 # Aula 2
-Idenficiar os diferentes tipos de operadores
+Identificar os diferentes tipos de operadores
